@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SanaSM eCommerce</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="nav-left">
+      <h1 class="logo">SanaSM</h1>
+    </div>
+    <div class="nav-center">
+      <input type="text" placeholder="Search for products..." class="search-input" />
+      <div class="page-links">
+        <span data-index="0">Airforce</span>
+        <span data-index="1">Jorden</span>
+        <span data-index="2">Blazer</span>
+        <span data-index="3">Crater</span>
+        <span data-index="4">Hippie</span>
+      </div>
+    </div>
+    <div class="nav-right">
+      <p class="offer-text">Limited Offer!</p>
+    </div>
+  </header>
+
+  <section class="hero-slider">
+    <!-- This background stays fixed -->
+    <div class="slide active">
+      <div class="clip-content">
+        <div class="slide-left">
+          💵 <span>$110.00</span>
+        </div>
+        <div class="circle-wrapper">
+          <div class="circle-bg"></div>
+          <img src="img1/img/air.png" alt="Airforce" class="product-img" />
+        </div>
+
+        
+        <div class="slide-right">
+          <h2>Airforce Collection</h2>
+          <button>Buy Now</button>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Other slides -->
+    <div class="slide">
+      <div class="clip-content">
+        <div class="slide-left">
+          💵 <span>$110.00</span>
+        </div>
+        <div class="circle-wrapper">
+          <div class="circle-bg1"></div>
+          <img src="img1/img/jordan.png" alt="Jorden" class="product-img" />
+        </div>
+        <div class="slide-right">
+          <h2>Jorden Edition</h2>
+          <button>Buy Now</button>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Repeat more slides -->
+    <!-- Other slides -->
+    <div class="slide">
+      <div class="clip-content">
+        <div class="slide-left">
+          💵 <span>$110.00</span>
+        </div>
+        <div class="circle-wrapper">
+          <div class="circle-bg2"></div>
+          <img src="img1/img/blazer.png" alt="Jorden" class="product-img" />
+        </div>
+        <div class="slide-right">
+          <h2>Jorden Edition</h2>
+          <button>Buy Now</button>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Repeat more slides -->
+    <!-- Other slides -->
+    <div class="slide">
+      <div class="clip-content">
+        <div class="slide-left">
+          💵 <span>$110.00</span>
+        </div>
+        <div class="circle-wrapper">
+          <div class="circle-bg3"></div>
+          <img src="img1/img/crater.png" alt="Jorden" class="product-img" />
+        </div>
+        <div class="slide-right">
+          <h2>Jorden Edition</h2>
+          <button>Buy Now</button>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Repeat more slides -->
+    <!-- Other slides -->
+    <div class="slide">
+      <div class="clip-content">
+        <div class="slide-left">
+          💵 <span>$110.00</span>
+        </div>
+        <div class="circle-wrapper">
+          <div class="circle-bg4"></div>
+          <img src="img1/img/hippie.png" alt="Jorden" class="product-img" />
+        </div>
+        <div class="slide-right">
+          <h2>Jorden Edition</h2>
+          <button>Buy Now</button>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Repeat more slides -->
+  </section>
+  
+
+  <section class="features-section">
+    <div class="feature-box">
+      <div class="feature-icon">🚚</div>
+      <h1>Free Shipping</h1>
+      <p>Free worldwide shipping on all orders.</p>
+    </div>
+  
+    <div class="feature-box">
+      <div class="feature-icon">🔁</div>
+      <h1>30 Days Return</h1>
+      <p>No question return and easy refund in 14 days.</p>
+    </div>
+  
+    <div class="feature-box">
+      <div class="feature-icon">🎁</div>
+      <h1>Gift Cards</h1>
+      <p>Buy gift cards and use coupon codes easily.</p>
+    </div>
+  
+    <div class="feature-box">
+      <div class="feature-icon">📞</div>
+      <h1>Contact Us</h1>
+      <p>Keep in touch via email and support system.</p>
+    </div>
+  </section>
+  
+
+  <section class="blazer-section" id="blazer" >
+    <div class="blazer-bg"></div>
+  
+    <div class="blazer-content">
+      <div class="blazer-left">
+        <shoes>
+          <img id="product-img" src="img1/img/air.png" alt="Product Shoe" />
+        </shoes>
+      </div>
+  
+      <div class="blazer-right">
+        <h1 id="product-title">Blazer</h1>
+        <div id="product-price" class="price">💲234</div>
+        <p id="product-desc">
+          This stylish Blazer blends classic design with modern comfort. Perfect for any occasion, it gives you bold style and versatile wear all day long.
+        </p>
+  
+        <div id="color-options" class="color-boxes"></div>
+  
+        <div class="size-boxes">
+          <div class="size">40</div>
+          <div class="size">42</div>
+          <div class="size">44</div>
+        </div>
+  
+        <button class="buy-now">Buy Now</button>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="personal-info" class="personal-info hidden">
+    <div class="info-container">
+      <span id="close-info" class="close-btn">✖</span>
+      <h2>Personal Information</h2>
+  
+      <div class="input-group">
+        <label>Full Name</label>
+        <input type="text" placeholder="Name here" />
+      </div>
+  
+      <div class="input-group">
+        <label>Email</label>
+        <input type="email" placeholder="Email here" />
+      </div>
+  
+      <div class="input-group">
+        <label>Phone Number</label>
+        <input type="tel" placeholder="Phone number here" />
+      </div>
+  
+      <div class="input-group">
+        <label>Address</label>
+        <input type="text" placeholder="Address here" />
+      </div>
+  
+      <h3 class="card-title">Card Information</h3>
+      <div class="card-icons">
+        <img src="img1/img/visa.png" alt="Visa" />
+        <img src="img1/img/master.png" alt="MasterCard" />
+      </div>
+  
+      <div class="input-group">
+        <input type="text" placeholder="Card Number" />
+      </div>
+  
+      <div class="card-details">
+        <input type="text" placeholder="MM" />
+        <input type="text" placeholder="YY" />
+        <input type="text" placeholder="CVV" />
+      </div>
+  
+      <button class="submit-btn">Submit</button>
+    </div>
+  </section>
+  
+
+  <section class="be-yourself-section">
+    <div class="column">
+      <h2>Be Your Self</h2>
+      <img src="img1/img/img1-un.jpg" alt="Be Yourself Image" />
+    </div>
+  
+    <div class="column">
+      <img src="img1/img/img2-un.jpg" alt="New Life Image" />
+      <h2>This is the first day of your new life</h2>
+    </div>
+  
+    <div class="column">
+      <h2>Just Do It</h2>
+      <img src="img1/img/img3-un.jpg" alt="Just Do It Image" />
+    </div>
+  </section>
+  
+
+  <section class="winter-banner">
+    <div class="banner-img">
+      <img src="img1/img/img-w1.jpg" alt="Banner Left" />
+    </div>
+  
+    <div class="banner-img center-banner">
+      <img src="img1/img/img-dark.jpg" alt="Banner Center" />
+      <div class="banner-text">
+        <h1>Winter New Arrives</h1>
+        <p>New Season</p>
+        <button>Choose Your Style</button>
+      </div>
+    </div>
+  
+    <div class="banner-img">
+      <img src="img1/img/img-.jpg" alt="Banner Right" />
+    </div>
+  </section>
+  
+
+
+  <footer class="site-footer">
+    <div class="footer-container">
+      
+      <!-- Column 1 -->
+      <div class="footer-column">
+        <h3>About Us</h3>
+        <ul>
+          <li>Company</li>
+          <li>Contact</li>
+          <li>Careers</li>
+          <li>Affiliates</li>
+          <li>Stores</li>
+        </ul>
+      </div>
+  
+      <!-- Column 2 -->
+      <div class="footer-column">
+        <h3>Useful Links</h3>
+        <ul>
+          <li>Support</li>
+          <li>Refund</li>
+          <li>FAQ</li>
+          <li>Feedback</li>
+          <li>Stories</li>
+        </ul>
+      </div>
+  
+      <!-- Column 3 -->
+      <div class="footer-column">
+        <h3>Products</h3>
+        <ul>
+          <li>Air Force</li>
+        </ul>
+        <ul>
+          <li>Air Jordan</li>
+        </ul>
+        <ul>
+          <li>Blazer</li>
+        </ul>
+        <ul>
+          <li>Crater</li>
+        </ul>
+        <ul>
+          <li>Hippie</li>
+        </ul>
+      </div> 
+  
+      <!-- Column 4 -->
+      <div class="footer-column">
+        <h3>Subscribe to our newsletter</h3>
+        <div class="newsletter">
+          <input type="email" placeholder="Enter your email" />
+          <button>Subscribe</button>
+        </div>
+  
+        <div style="margin: 30px 0;"></div>
+  
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-x-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-whatsapp"></i>
+        </div>
+  
+        <p class="copyright">
+          © Lama Dev. All rights reserved. 2022.
+        </p>
+      </div>
+    </div>
+  </footer>
+  
+
+
+
+
+
+
+  <script src="app.js"></script>
+</body>
+</html>
